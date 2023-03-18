@@ -16,6 +16,8 @@ app.use("/api/got", gotRoutes); //sequelize
 // set port, listen for requests
 const PORT = process.env.PORT || 8081;
 
+//test
+
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });
